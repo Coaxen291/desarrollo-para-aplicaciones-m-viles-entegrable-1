@@ -64,14 +64,7 @@ petcare_app/
 
 ---
 
-## 📸 Capturas de pantalla (opcional)
 
-_Agrega aquí imágenes de la app funcionando en tu celular._  
-Ejemplo:
-
-- Pantalla de mascotas 🐶  
-- Pantalla de recordatorios 📅  
-- Perfil de usuario 👤  
 
 ---
 
