@@ -1,50 +1,89 @@
-# Welcome to your Expo app 👋
+# 📱 PetCare App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicación móvil desarrollada con **React Native y Expo** para la gestión de mascotas.  
+Permite llevar un control de tus mascotas, visualizar detalles, registrar recordatorios y acceder al perfil del usuario.  
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Características principales
 
+- 🐾 **Gestión de mascotas**: listado de mascotas y detalles individuales.  
+- 📅 **Recordatorios**: registra vacunas, paseos u otros eventos importantes.  
+- 👤 **Perfil de usuario**: información personal y opciones básicas de configuración.  
+- 🔀 **Navegación fluida**: uso de pestañas inferiores y stack de pantallas con React Navigation.  
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- [React Native](https://reactnative.dev/)  
+- [Expo](https://expo.dev/)  
+- [React Navigation](https://reactnavigation.org/)  
+- [Ionicons (Expo Vector Icons)](https://icons.expo.fyi/)  
+
+---
+
+## 📂 Estructura del proyecto
+
+```
+petcare_app/
+│ App.js
+│ index.js
+│ package.json
+│ app.json
+│ README.md
+│
+└── screens/
+    ├── InicioScreen.js
+    ├── DetalleMascotaScreen.js
+    ├── RecordatoriosScreen.js
+    └── PerfilScreen.js
+```
+
+---
+
+## ⚙️ Instalación y ejecución
+
+1. Clonar este repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/petcare_app.git
+   cd petcare_app
+   ```
+
+2. Instalar dependencias:
    ```bash
    npm install
    ```
 
-2. Start the app
-
+3. Iniciar la aplicación:
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+4. Escanear el **QR** con la app **Expo Go** (Android/iOS) para ver la aplicación en tu dispositivo.  
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 📸 Capturas de pantalla (opcional)
 
-## Get a fresh project
+_Agrega aquí imágenes de la app funcionando en tu celular._  
+Ejemplo:
 
-When you're ready, run:
+- Pantalla de mascotas 🐶  
+- Pantalla de recordatorios 📅  
+- Perfil de usuario 👤  
 
-```bash
-npm run reset-project
-```
+---
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 📌 Próximas mejoras
 
-## Learn more
+- [ ] Agregar persistencia con base de datos local (SQLite/AsyncStorage).  
+- [ ] Implementar autenticación de usuarios.  
+- [ ] Soporte para notificaciones push.  
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 👨‍💻 Autor
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- Cristian Mejía  
+- Proyecto para la asignatura **Programación Móvil**  
